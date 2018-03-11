@@ -18,4 +18,4 @@ Projeto que surgiu da necessidade de tornar encomendas de gás de cozinha para r
 ### Orientação
 - [@vsnepomuceno](https://github.com/vsnepomuceno) Vilmar Santos Nepomuceno
 
-OBS.: O OnGas está dividido em três partes: o aplicativo do usuário, aplicativo da empresa e o servidor web. Este repositório é o servidor web.
+**OBS.:** O OnGas está dividido em três partes: o aplicativo do usuário, aplicativo da empresa e o servidor web. Este repositório trata-se do servidor web.
