@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Bem vindo!</title>
+    </h:head>
+    <h:body>
+        <h:form>
+            <p:panel>
+                <center>
+                    <p:fieldset legend="Cadastrar Distribuidor">
+                        <p:panelGrid columns="2">
+                            <h:outputText value="CNPJ"/>
+                            <p:inputText value="#{cnpj}"/>
+                            <h:outputText value="Nome"/>
+                            <p:inputText value="#{nome}"/>
+                            <h:outputText value="Preço"/>
+                            <p:inputText value="#{preco}"/>
+                        </p:panelGrid>
+                        <br></br>
+
+                        <p:commandButton value="Cadastrar" action="#{modelDistribuidor.cadastrarDistribuidor(cnpj, nome, preco)}"/>
+                    </p:fieldset>
+                </center>
+            </p:panel>
+        </h:form>
+    </h:body>
+</html>
